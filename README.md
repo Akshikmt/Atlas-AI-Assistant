@@ -1,11 +1,11 @@
 # Atlas AI Chatbot
 
+A beginner-friendly full-stack AI chatbot built with HTML/CSS/Tailwind (Frontend) and Node.js/Express (Backend) using the Google Gemini API.
+
 **Live Link:** [https://atlas-ai-assistant.netlify.app/]
 
 **Screenshot:**
-![App Screenshot](Insert path or URL to your screenshot here, e.g., ./screenshot.png)
-
-A beginner-friendly full-stack AI chatbot built with HTML/CSS/Tailwind (Frontend) and Node.js/Express (Backend) using the Google Gemini API.
+![App Screenshot](./screenshot/screenshot.png)
 
 ## Project Structure
 ```text
