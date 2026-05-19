@@ -5,7 +5,7 @@ A beginner-friendly full-stack AI chatbot built with HTML/CSS/Tailwind (Frontend
 **Live Link:** [https://atlas-ai-assistant.netlify.app/]
 
 **Screenshot:**
-![App Screenshot](./screenshot/screenshot.png)
+![App Screenshot](./screenshot/Screenshot.png)
 
 ## Project Structure
 ```text
