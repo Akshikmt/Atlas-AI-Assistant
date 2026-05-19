@@ -8,7 +8,7 @@ const loadingIndicator = document.getElementById('loading');
 const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
 
 // Replace 'YOUR_RENDER_URL' with the actual link Render gives you after deployment
-const PRODUCTION_API_URL = 'https://YOUR_RENDER_URL.onrender.com/api/chat';
+const PRODUCTION_API_URL = 'https://chatbot-backend-mi53.onrender.com/api/chat';
 const LOCAL_API_URL = 'http://localhost:3000/api/chat';
 
 // Set the final API URL
