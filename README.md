@@ -1,5 +1,10 @@
 # Atlas AI Chatbot
 
+**Live Link:** [https://atlas-ai-assistant.netlify.app/]
+
+**Screenshot:**
+![App Screenshot](Insert path or URL to your screenshot here, e.g., ./screenshot.png)
+
 A beginner-friendly full-stack AI chatbot built with HTML/CSS/Tailwind (Frontend) and Node.js/Express (Backend) using the Google Gemini API.
 
 ## Project Structure
@@ -53,9 +58,9 @@ Follow these steps to run the application locally on your machine.
 
 ---
 
-## Deployment (Vercel & Render)
+## Deployment (Netlify & Render)
 
-This project is configured to be deployed as two separate services: the static frontend on Vercel, and the Node.js backend on Render.
+This project is configured to be deployed as two separate services: the static frontend on Netlify, and the Node.js backend on Render.
 
 1. **Backend (Render)**: 
    - Connect your GitHub repository to [Render](https://render.com/).
@@ -63,13 +68,13 @@ This project is configured to be deployed as two separate services: the static f
    - Add your `GEMINI_API_KEY` as an environment variable.
    - Deploy. Render will automatically run `npm install` and `npm start`.
 
-2. **Frontend (Vercel)**:
+2. **Frontend (Netlify)**:
    - Copy the live URL from your Render backend.
    - Open `frontend/script.js` and paste it into the `PRODUCTION_API_URL` variable.
    - Push this change to GitHub.
-   - Connect your GitHub repository to [Vercel](https://vercel.com/).
-   - Set the Root Directory to `frontend`.
-   - Deploy. Vercel will host your static files automatically.
+   - Connect your GitHub repository to [Netlify](https://www.netlify.com/) (or drag and drop your project folder).
+   - Set the publish directory or base directory to `frontend`.
+   - Deploy. Netlify will host your static files automatically.
 
 ---
 
